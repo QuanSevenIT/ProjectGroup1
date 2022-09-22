@@ -30,5 +30,29 @@ public class MainClass {
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
         System.out.println("Max là : "+ a.timMax(101, 222, 19));
     }
+   //PhepTru by TranTungHuyQuan
+    public static void main(String[] args) {
+     int num1 = 10, num2 = 7, hieu;
+      hieu = num1 - num2;
+ 
+      System.out.println("Hieu hai so la: "+hieu);
    
+    }
+    //PhepCong by PhamVietLam
+     public static void main(String[] args) {
+       int num1, num2, sum;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập vào số thứ nhất: ");
+        num1 = sc.nextInt();
+ 
+        System.out.println("Nhập vào số thứ hai: ");
+        num2 = sc.nextInt();
+ 
+        sc.close();
+        sum = num1 + num2;
+        System.out.println("Tổng của hai số vừa nhập là: "+sum);
+        // TODO code application logic here
+    }
+
+    
 }
